@@ -50,7 +50,7 @@ You will need a suitable HDMI Breakout or cable to connect the Snō pins to the 
 | TMDS CLK+ | 10 | D30 |
 | TMDS CLKS | 11 | GND |
 | TMDS CLK- | 12 | D36 |
-| Shield | GND |
+| Shield | | GND |
 
 The Snō requires 3.3V power. Connecting it to 5V will damage it. Please make sure you are using one of the [recommended FTDI cables](https://www.aloriumtech.com/sno-quickstart/) to provide power for the board.
 
