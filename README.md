@@ -36,20 +36,20 @@ The _**Intro to OpenXLR8**_ webinar contains a _lot_ of useful information. You 
 You will need a suitable HDMI Breakout or cable to connect the Snō pins to the HDMI port on your TV/Monitor, e.g.:
 - https://www.mouser.co.uk/ProductDetail/Gravitech/HDMI-TERM?qs=fkzBJ5HM%252BdAarVr%2F6McOaQ%3D%3D
 
-| HDMI | Snō |
-|---|---|
-| TMDS D2+ (HDMI Pin 1) | Pin D28 |
-| TMDS D2S (HDMI Pin 2) | GND |
-| TMDS D2- (HDMI Pin 3) | Pin D34 |
-| TMDS D1+ (HDMI Pin 4) | Pin D35 |
-| TMDS D1S (HDMI Pin 5) | GND |
-| TMDS D1- (HDMI Pin 6) | Pin D22 |
-| TMDS D0+ (HDMI Pin 7) | Pin D23 |
-| TMDS D0S (HDMI Pin 8) | GND |
-| TMDS D0- (HDMI Pin 9) | Pin D29 |
-| TMDS CLK+ (HDMI Pin 10) | Pin D30 |
-| TMDS CLKS (HDMI Pin 11) | GND |
-| TMDS CLK- (HDMI Pin 12) | Pin D36 |
+| Signal | HDMI Pin | Snō Pin |
+|---|---|---|
+| TMDS D2+ | 1 | D28 |
+| TMDS D2S | 2 | GND |
+| TMDS D2- | 3 | D34 |
+| TMDS D1+ | 4 | D35 |
+| TMDS D1S | 5 | GND |
+| TMDS D1- | 6 | D22 |
+| TMDS D0+ | 7 | D23 |
+| TMDS D0S | 8 | GND |
+| TMDS D0- | 9 | D29 |
+| TMDS CLK+ | 10 | D30 |
+| TMDS CLKS | 11 | GND |
+| TMDS CLK- | 12 | D36 |
 | Shield | GND |
 
 The Snō requires 3.3V power. Connecting it to 5V will damage it. Please make sure you are using one of the [recommended FTDI cables](https://www.aloriumtech.com/sno-quickstart/) to provide power for the board.

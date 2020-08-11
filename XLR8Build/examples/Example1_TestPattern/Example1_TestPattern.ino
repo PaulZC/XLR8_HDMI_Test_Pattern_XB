@@ -1,14 +1,14 @@
 /*
   HDMI Test Pattern Generator
 
-  Runs on the Alorium Technologies Sno board
+  Runs on the Alorium Technology Snō board
 
   Written by: Paul Clark
   Date: August 11th 2020
 
-  With the 'on' values set to 0xFF and the 'off' values set to 0, the Sno
+  With the 'on' values set to 0xFF and the 'off' values set to 0, the Snō
   will generate a 640x480 HDMI test pattern of vertical colored bars:
-  white; cyan; magenta, blue, yellow, green, red, black
+  white, cyan, magenta, blue, yellow, green, red, black
 
   By setting the red 'on' value to 0, the red component will disappear leaving:
   cyan, blue, green, black
